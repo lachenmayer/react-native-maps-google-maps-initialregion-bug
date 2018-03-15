@@ -1,5 +1,7 @@
 # react-native-maps Google Maps bug
 
+**Please check out the [`debugging`](https://github.com/lachenmayer/react-native-maps-google-maps-initialregion-bug/tree/debugging) branch for a discussion of the root cause & a possible solution.**
+
 ## Observations
 
 When using Google Maps with react-native-maps on iOS, the `initialRegion` prop is not respected.
