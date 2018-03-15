@@ -15,8 +15,11 @@ class BuggyMap extends Component {
           initialRegion={{
             latitude: 51.50853,
             longitude: -0.12574,
-            latitudeDelta: 1,
-            longitudeDelta: 1,
+            latitudeDelta: 1.234,
+            longitudeDelta: 1.234,
+          }}
+          onChange={event => {
+            console.warn(event.nativeEvent)
           }}
         />
       </View>
