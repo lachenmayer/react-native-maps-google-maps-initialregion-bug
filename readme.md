@@ -1,3 +1,7 @@
+**This branch adds various log statements on the native & JS side. You can see where I added logs by [comparing this branch to master](https://github.com/lachenmayer/react-native-maps-google-maps-initialregion-bug/compare/debugging).**
+
+This branch also adds a simple fix.
+
 ## Order of calls in AirGoogleMap
 
 * `setInitialRegion`
