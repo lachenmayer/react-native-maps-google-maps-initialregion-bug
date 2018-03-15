@@ -18,9 +18,6 @@ class BuggyMap extends Component {
             latitudeDelta: 1,
             longitudeDelta: 1,
           }}
-          onChange={x => {
-            console.log(x.nativeEvent)
-          }}
         />
       </View>
     )
